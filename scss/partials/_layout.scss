@@ -1,0 +1,38 @@
+// BOX SIZING
+* {box-sizing: border-box;}
+html, body { height: 100%; }
+
+
+
+// RESPONSIVE TYPE SCALING FOR BREAKPOINT
+//14px on Small Screens (mobile)
+//16px on Medium Screens (tablet)
+//18px on Large Screens (desktop)
+
+body {
+    font-size: 87.5%;
+    margin: 0;
+}
+
+.container {
+    padding: 0 4%;
+    margin: auto;
+}
+
+@media (min-width: $breakpoint-small) {
+    body {
+        font-size: 100%; // 16px
+    }
+}
+
+@media (min-width:$breakpoint-medium) {
+    .container {
+        max-width: $breakpoint-medium;
+    }
+}
+
+@media (min-width: $breakpoint-large) {
+    body {
+        font-size: 112.5%; //18px
+    }
+}

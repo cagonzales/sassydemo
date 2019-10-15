@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Sassy Base</title>
+  <meta name="description" content="A simple sassy css website starter." />
+
+  <!-- VIEWPORT FOR MOBILE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- MAIN CSS FILE -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="site-id">
+      <h1><a href="#">Sassy Base 2019</a></h1>
+    </div>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#layout">Layout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>A Sassy Base Site</h2>
+    <p>This is a simple, single page website, built with SASS.</p>
+    <a class="button" href="#">Go to Typography</a>
+  </section>
+
+  <section id="typography">
+    <div class="container">
+
+      <h3 class="sectionhead">Typography</h3>
+      <p class="meta">Type Specimen</p>
+
+
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo, lorem ac rhoncus dignissim, nisl
+        turpis placerat leo, auctor dictum orci leo ac arcu. Aliquam metus orci, fringilla et auctor eu, volutpat vitae
+        eros. Ut vel risus porttitor, aliquet turpis nec, sagittis libero. Fusce quis ex massa. Aliquam volutpat cursus
+        augue, et dictum metus lobortis sit amet.</p>
+      <p> Nam felis velit, volutpat id ex id, luctus porta mi. Phasellus nec nisl orci. Maecenas auctor justo ornare
+        tincidunt cursus. Praesent feugiat tellus varius, rutrum turpis quis, tristique tortor. Curabitur mattis
+        bibendum convallis. Curabitur non rhoncus leo. Vivamus ligula nibh, aliquet vel laoreet porta, dapibus eu nulla.
+      </p>
+
+      <hr />
+
+      <h1 class="mainhead">Headline Title</h1>
+      <h2 class="Subhead">This is a subheader</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. This is something <strong>bold</strong> and this is something <em>italic</em>. This is a <a
+          href="#">Link</a>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</p>
+
+      <button>This is a Button</button>
+      <a class="button">This is a Button Link</a>
+      <a class="button alt">This is a Button Link Alt</a>
+
+    </div>
+  </section>
+
+  <section id="layout">
+    <div class="container">
+
+      <h3 class="sectionhead">Layout</h3>
+
+
+      <small class="meta">Images</small>
+      <img src="https://picsum.photos/g/1500/500/?random" alt="Placeholder Image" />
+
+
+      <small class="meta">Grid</small>
+      <div class="row demo">
+        <div class="column">Column</div>
+      </div>
+
+
+      <div class="row demo">
+        <div class="column one-half">&frac12; Column</div>
+        <div class="column one-half">&frac12; Column</div>
+      </div>
+
+      <div class="row demo">
+        <div class="column one-third">&frac13; Column</div>
+        <div class="column one-third">&frac13; Column</div>
+        <div class="column one-third">&frac13; Column</div>
+      </div>
+
+      <div class="row demo">
+        <div class="column one-third">&frac13; Column</div>
+        <div class="column two-thirds">&frac23; Column</div>
+      </div>
+
+      <div class="row demo">
+        <div class="column one-fourth">&frac14; Column</div>
+        <div class="column one-fourth">&frac14; Column</div>
+        <div class="column one-fourth">&frac14; Column</div>
+        <div class="column one-fourth">&frac14; Column</div>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="one-half column">
+          <img src="https://via.placeholder.com/1500" alt="Placeholder Image">
+        </div>
+        <div class="one-half column">
+          <h4>Text on the Right</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias accusamus, nemo vero perspiciatis quia
+            magni, deleniti consequatur temporibus nisi autem, eveniet id sed blanditiis aliquid.</p>
+        </div>
+      </div>
+
+      <div class="row swap">
+        <div class="one-half column">
+          <img src="https://via.placeholder.com/1500" alt="Placeholder Image">
+        </div>
+
+        <div class="one-half column">
+          <h4>Text on the Left</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias accusamus, nemo vero perspiciatis quia
+            magni, deleniti consequatur temporibus nisi autem, eveniet id sed blanditiis aliquid.</p>
+        </div>
+      </div>
+
+      <div class="row center">
+        <div class="one-half column">
+          <img src="https://via.placeholder.com/1500" alt="Placeholder Image">
+        </div>
+
+        <div class="one-half column">
+          <h4>Text on the Right</h4>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias accusamus, nemo vero perspiciatis quia
+            magni, deleniti consequatur temporibus nisi autem, eveniet id sed blanditiis aliquid.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <nav class="site-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#layout">Layout</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <!-- SMOOTH SCROLL JS -->
+  <script src="js/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+
+</body>
+
+</html>
