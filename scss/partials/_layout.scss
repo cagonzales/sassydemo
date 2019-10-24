@@ -10,13 +10,13 @@ html, body { height: 100%; }
 //18px on Large Screens (desktop)
 
 body {
-    font-size: 87.5%;
+    font-size: 87.5%; // 14px
     margin: 0;
 }
 
 .container {
     padding: 0 4%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 @media (min-width: $breakpoint-small) {
@@ -34,5 +34,8 @@ body {
 @media (min-width: $breakpoint-large) {
     body {
         font-size: 112.5%; //18px
+    }
+    .container {
+        max-width: $breakpoint-medium;
     }
 }

@@ -1,7 +1,18 @@
+/*BODY*/
+
+body {
+    font-family: $body-fontfamily;
+    font-size: 100%;
+    line-height: 1.4;
+    color: $color-text-body;
+}
+
 /*HEADINGS*/
 
 h1, h2, h3 {
+    font-family: $heading-fontfamily;
     margin: .5em 0;
+    font-weight: 400;
 }
 
 h1 {
@@ -76,8 +87,8 @@ a:hover { color: $color-links-dark;}
 }
 
 .subhead {
-//    font-family: $body-fontfamily;
-    // color: $color-midgrey;
+font-family: $body-fontfamily;
+    color: $color-midgrey;
     margin-bottom: 1em;
 }
 

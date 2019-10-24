@@ -1,12 +1,14 @@
 // VARIABLES
-$mybodybackground: rgb(0, 0, 1);
-$body-fontfamily: 'Roboto';
+$heading-fontfamily: 'roboto', Helvetica, arial, sans-serif;
+$body-fontfamily: 'kepler-std', georgia, serif;
 
 // COLORS
-$color-text-body: rgba(237, 237, 237, 0.81);
-$color-accent: rgb(0, 0, 1);
+$color-text-body: rgba(17, 17, 17, 0.81);
+$color-background-body: rgba(255, 255, 255, 1);
+$color-midgrey: rgba (0,0,0,.5);
 $color-links: rgb(218, 139, 55);
 $color-links-dark: rgb(236, 195, 144);
+$color-accent: rgb(0, 0, 1);
 $color-hero-bg: rgb(0, 0, 1);
 
 // BREAKPOINTS
